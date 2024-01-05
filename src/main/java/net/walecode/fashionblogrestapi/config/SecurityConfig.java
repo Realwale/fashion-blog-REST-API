@@ -29,6 +29,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
         bearerFormat = "JWT",
         scheme = "bearer"
 )
+
 public class SecurityConfig {
 
     private UserDetailsService userDetailsService;
